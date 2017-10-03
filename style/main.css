@@ -1,5 +1,4 @@
 
-
 *{
 	box-sizing:border-box;
 }
@@ -8,17 +7,42 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 
 body{
 
-	background-color: black;
+	background-color: lightblue;
 	margin:0;
-	width:100%;
+	max-width:100%;
 }
 /**********START HEADER**********/
+#wrapper{
+	width:100%;
+}
+
+header{
+	position: relative;
+
+}
 h1{
 	color: white;
 }
 
 p{
-	color:white;
+	color:black;
+
+}
+#logo{
+	height:100px;
+}
+.menu-btn span{
+	display: block;
+	background-color: #cbcbcb;
+	width: 60px;
+	height: 8px;
+	margin: 6px;
+	border-radius: 5px;
+}
+
+nav:first-of-type ul{
+	display: flex;
+	/*justify-items:;*/
 }
 
 ul li{
@@ -26,40 +50,76 @@ ul li{
 	display: inline-block;
 }
 
-ul li a {
-	width:100%;
-	height:50px;
-	line-height:50px;
-	border-bottom:none;
-	float:left;
+#navigation{
+	display:flex;
+	justify-content: space-around;
+
+
+}
+
+.nav-ul-1 {
+	position:relative;
+	justify-content:space-evenly;
+	bottom:85px;
+	right:100px;
+}
+
+#langues{
+
+	position: relative;
+	bottom:37px;
+	right:70px;
 }
 
 #search{
 	border-radius:10px;
 }
 
-.search{
+.search-loupe{
+	height: 40px;
+	margin: 10px 20px 20px 0;
 	position: relative;
-	bottom: 600px;
-
+	top:39px;
+	background: white;
 }
+
 #loupe{
-	display:inline-block;
 	height:40px;
 	margin:0 20px 0 0;
-
+	position:relative;
+	bottom:174px;
+	left:1160px;
 }
 
-#banner{
-	height:350px;
+#banner {
 	width: 100%;
+	height: 100%;
+	position: relative;
+	bottom:30px;
 }
+
+header nav .nav-ul-1 li a:hover{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	color:black;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border-top: 10px solid red;
+}
+
+
 /**********END  HEADER**********/
 
 /**********START MAIN**********/
 img{
 	height:200px;
 	display: block;
+	max-width: 100%;
 
 }
 
@@ -69,6 +129,17 @@ img{
 	border:0;
 }
 /****START 6-8 ANS***/
+#livres-de6-8ans{
+	position: relative;
+	left:80px;
+
+}
+
+#6-8ans{
+	position: relative;
+	bottom:150px;
+
+}
 #clifford{
 	position:relative;
 	bottom:376px;
@@ -83,7 +154,7 @@ img{
 
 #piano{
 	position:relative;
-	bottom:746px;
+	bottom:728px;
 
 }
 
@@ -95,56 +166,173 @@ img{
 /****END 6-8 ANS***/
 
 /****START 12 ANS ET PLUS***/
+#livres-12ans-et-plus{
+	position: relative;
+	left:80px;
+	display: flex;
+
+}
+
 #12ans{
 	position:relative;
 	bottom:1069px;
 }
+
+#judith{
+	position: relative;
+	bottom:1000px;
+
+
+}
+
+#naturo{
+	position: relative;
+	bottom: 1000px;
+	left: 250px;
+
+}
+
+#punch{
+	position: relative;
+	bottom:1000px;
+	left:500px;
+}
+
+#strawberry{
+	position: relative;
+	bottom: 612px;
+	right:780px;
+}
+
+#tokyo{
+	position: relative;
+	bottom: 612px;
+	right:530px;
+}
 /****END 12 ANS ET PLUS***/
+
+/****START 18 ANS ET PLUS***/
+#livres-18ans-et-plus{
+	position: relative;
+	display: flex;
+
+}
+
+#man{
+	position: relative;
+	bottom: 500px;
+	left:90px;
+
+}
+
+#voyage{
+	position: relative;
+	bottom:500px;
+	left:380px;
+
+}
+
+#secret{
+	position: relative;
+	bottom: 500px;
+	left:550px;
+
+}
+
+#colonne-de-feu{
+	position: relative;
+	bottom: 100px;
+	right:780px;
+
+}
+
+#vipere-au-poing{
+	position: relative;
+	bottom: 100px;
+	right:590px;
+
+}
+/****END 18 ANS ET PLUS***/
 
 /**********END MAIN**********/
 
 /**********START FOOTER**********/
 
-h4{
-	color: white;
-}
-#instagram{
-	height: 50px;
-
+.footer-1 {
+	margin: 20px 0;
 }
 
-#facebook {
-	height: 50px;
+.footer-2{
+	display: flex;
+	margin: 0;
 }
 
-@media only screen and (min-width: 960px) {
+.copyright{
+	order: 1;
+	font-size: 0.8em;
+	margin: auto;
+}
 
-	.col-4 {
-		width: 33.33%;
-	}
+.footer-rs-mailto{
+	-webkit-box-ordinal-group: 3;
+	-ms-flex-order: 2;
+	order: 2;
+	display: flex;
+}
+
+footer .heures-ouverture, .adresse{
+	margin: 50px 0 10px 0;
+	font-size: 0.8em;
+}
+
+.projet-etudiant{
+	text-align: center;
+	font-size:0.8em;
+}
+
+.rs{
+	align-self: center;
+	background-color: black;
+	display: flex;
+}
+
+.rs img{
+	width: 40px;
+}
+
+.mailto{
+	font-size: 0.8em;
+}
+
+.a-propos {
+	display: block;
+	margin: 50px 0 10px 0;
+	font-size: 0.8em;
+}
+
+.a-propos p {
+	display: block;
+	margin: 15px auto;
+}
+
+h4 {
+	color:black;
+	font-size: 2.0em;
 
 }
 
-.propos{
-	display:block;
-	margin:50px 0 10px 0;
-	font-size:20px;
+footer p {
+	font-weight: normal;
 }
 
-.heures-ouverture{
-	display:block;
-	margin:50px 0 10px 0;
-	font-size:20px;
+p {
+	font-size: 15px;
+
 }
 
-.adresse{
-	display:block;
-	margin:50px 0 10px 0;
-	font-size:20px;
-}
-
-.footer{
-	margin:20px;
+.rs img{
+	height:50px;
+	width:50px;
 }
 /**********END FOOTER**********/
 

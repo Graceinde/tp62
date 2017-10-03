@@ -1,10 +1,10 @@
 
 <?php
-$title = 'Livres d\'un jour ';
 require_once 'views/header.php';
 ?>
-<img src="images/6-8 ans.jpg" alt="6-8 ans">
-<img src="images/livres-6-8-ans/Brune du lac une mysterieuse disparition" alt="Livres pour les enfants entre 6 et 8 ans">
+
+<div id="livres-de6-8ans">
+    <img src="images/livres-6-8-ans/Brune du lac une mysterieuse disparition" alt="Livres pour les enfants entre 6 et 8 ans">
     <p>
         Nom :Brune du lac une mysterieuse disparition<br/>
         Description :C'est une mysterieuse disparition dans<br/>
@@ -49,6 +49,7 @@ require_once 'views/header.php';
     </div>
 </div>
 
+
 <div id="piano">
 <img src="images/livres-6-8-ans/Un piano pour Pavel" alt="Livres pour les enfants entre 6 et 8 ans">
     <p>
@@ -77,8 +78,9 @@ require_once 'views/header.php';
         <img src="images/panier.png" class="panier">
     </div>
 </div>
+</div>
 
-<img src="images/12 ans et plus.jpg" alt="12 ans et plus"  id="12 ans">
+<div id="livres-12ans-et-plus">
 
 <div id="judith">
 <img src="images/livres-12ans-et-plus/Judith.jpg" alt="Les livres pour 12 ans et plus">
@@ -154,7 +156,9 @@ require_once 'views/header.php';
         <img src="images/panier.png" class="panier">
     </div>
 </div>
+</div>
 
+<div id="livres-18ans-et-plus">
 <div id="man">
 <img src="images/livres-18ans-et-plus/I'm your man.jpg" alt="Livres pour adultes">
     <p>
@@ -170,6 +174,7 @@ require_once 'views/header.php';
     </div>
 </div>
 
+<div id="voyage">
 <img src="images/livres-18ans-et-plus/Le voyage.jpg" alt="Livres pour adultes">
     <p>
         Nom : Le voyage<br/>
@@ -182,7 +187,9 @@ require_once 'views/header.php';
     <div>
         <img src="images/panier.png" class="panier">
     </div>
+</div>
 
+<div id="secret">
 <img src="images/livres-18ans-et-plus/Un secret.jpg" alt="Livres pour adultes">
     <p>
         Nom : Un secret<br/>
@@ -195,7 +202,9 @@ require_once 'views/header.php';
     <div>
         <img src="images/panier.png" class="panier">
     </div>
+</div>
 
+<div id="colonne-de-feu">
 <img src="images/livres-18ans-et-plus/Une colonne de feu.jpg" alt="Livres pour adultes">
     <p>
         Nom : Une colonne de feu<br/>
@@ -208,7 +217,9 @@ require_once 'views/header.php';
     <div>
         <img src="images/panier.png" class="panier">
     </div>
+</div>
 
+<div id="vipere-au-poing">
 <img src="images/livres-18ans-et-plus/Vipere au poing.jpg" alt="Livres pour adultes">
     <p>
         Nom : Vipere au poing<br/>
@@ -221,6 +232,8 @@ require_once 'views/header.php';
     <div>
         <img src="images/panier.png" class="panier">
     </div>
+</div>
 
+</div>
 <?php
 require_once 'views/footer.php';
