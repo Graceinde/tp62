@@ -11,7 +11,7 @@ foreach ($livres as $liv => $livre) ?>
     <img src="<?=$livres[BOOK_IMG]?>">
     <p><?=BOOK_DESC?></p>
 
-    <div>
+<div>
 ?>
 <?php
 require_once 'views/footer.php';

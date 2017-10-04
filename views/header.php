@@ -1,6 +1,5 @@
+
 <?php
-
-
 
 ?>
 <!DOCTYPE html>
@@ -22,7 +21,7 @@
                         <nav>
                             <ul class="nav-ul-1">
                                 <li><a href="accueil.html">Accueil</a></li>
-                                <li><a href="catalogue.html">Catalogue</a></li>
+                                <li><a href="catalogue.php">Catalogue</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
