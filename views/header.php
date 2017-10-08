@@ -7,6 +7,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/main.css" />
+    <link rel="icon" href="images/favicon-teetime.png"/>
 </head>
 <body>
 <div id="wrapper">
@@ -20,12 +21,18 @@
                     <div>
                         <nav>
                             <ul class="nav-ul-1">
-                                <li><a href="accueil.html">Accueil</a></li>
-                                <li><a href="catalogue.php">Catalogue</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="index.php">Accueil</a></li>
+                                <li><a href="category.php">Catalogue</a></li>
+                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="login.php" id="login">Login</a></li>
+                                <li><a href="logout.php" id="logout">Logout</a></li>
                             </ul>
                         </nav>
                     </div>
+                </div>
+            </div>
+        </div>
+
                     <!-- MENU SEARCH BAR -->
                     <form class="col-3" action="process.php" method="post">
                         <div id="loupe">
@@ -34,10 +41,17 @@
                         <input class="search-loupe" type="image" src="images/icons/icon-loupe.png" alt="Icon de la loupe pour effectuer une recherche">
                         </div>
                     </form>
-                </div>
-        </div>
+
+                    <!-- PANIER -->
+
+                    <div>
+                        <a href="panier.php">
+                            <img src="images/panier_img.png" alt="Photo du panier" id="panier">
+                        </a>
+                    </div>
         </div>
 </form>
-        <img src="images/banner.jpg" alt="Les livres" id="banner">
+        <img src="images/livres.jpg" alt="Les livres" id="banner">
     </header>
 </div>
+</body>

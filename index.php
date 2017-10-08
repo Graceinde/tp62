@@ -1,21 +1,28 @@
 
 <?php
-require_once ('category.php');
+
 require_once ('views/header.php');
 
 ?>
-<ul>
+<div class="livres01">
+    <img src="images/index/labyrinthe_livres.jpg" alt="Un labyrinthe de livres">
+
+    <img src="images/index/livre_sur_la_table.jpg" alt="Les livres sont sur la table">
+
+    <img src="images/index/rvl.png" alt="Au bout du crayon, il y a des livres">
+</div>
+
+<div class="livres02">
+    <img src="images/index/spirale_de_livres.jpg" alt="Une spirale de livres">
+
+    <img src="images/index/hommes_livres.jpg" alt="homme_livres">
+
+    <img src="images/index/livres_pour_enfants.jpg" alt="livres_pour_enfants">
+</div>
+
+
 <?php
 
-    foreach($category as $cat => $book){ ?>
-        <li><a href="<?=$book[BOOK_CATEGORY_URL]?>?id=<?= $cat?>">
-             <img src="<?=$book[BOOK_IMG]?>" alt="<?=$book[BOOK_CATEGORY_ALT]?>">
-             <h2><?=$book[BOOK_CATEGORY_NAME]?></h2>
-        </a></li>
+    require_once 'views/footer.php';
 
-    <?php } ?>
-</ul>
-
-<?php
-require_once 'views/footer.php';
 ?>
