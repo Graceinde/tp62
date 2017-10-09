@@ -1,6 +1,7 @@
 
 <?php
 
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -36,16 +37,18 @@
                     <!-- MENU SEARCH BAR -->
                     <form class="col-3" action="process.php" method="post">
                         <div id="loupe">
+
                         <label for="search"></label>
                         <input type="search" id="search" name="search" placeholder="   Recherche">
                         <input class="search-loupe" type="image" src="images/icons/icon-loupe.png" alt="Icon de la loupe pour effectuer une recherche">
                         </div>
+
                     </form>
 
                     <!-- PANIER -->
 
                     <div>
-                        <a href="panier.php">
+                        <a href="panier/index_statique01.php">
                             <img src="images/panier_img.png" alt="Photo du panier" id="panier">
                         </a>
                     </div>
