@@ -48,11 +48,11 @@ if (isset($_POST['connexion']) && $_POST['connexion'] == 'Connexion') {
 </head>
 
 <body>
-<form action="index.php" method="post"id="espace">
+<form action="index.php" method="post" id="espace">
     <div id="submit">
     <div class="login">
         <label>Login :</label>
-        <input type="text" name="login" value="<?php if (isset($_POST['login'])) echo htmlentities(trim($_POST['login'])); ?>" class="input"><br />
+        <input type="text" name="login" value="<?php if (isset($_POST['login'])) echo htmlentities(trim($_POST['login'])); ?>" class="in"><br />
     </div>
 
     <div class="mdp">

@@ -48,7 +48,7 @@
                     <!-- PANIER -->
 
                     <div>
-                        <a href="panier/index_statique01.php">
+                        <a href="">
                             <img src="images/panier_img.png" alt="Photo du panier" id="panier">
                         </a>
                     </div>

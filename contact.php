@@ -1,7 +1,7 @@
 <?php
 
 require_once 'defines.php';
-require_once 'views/header.php'
+require_once 'views/header.php';
 
 ?>
 
@@ -204,7 +204,7 @@ $vld = array(
         <!-- Champ adresse  -->
         <div class="adresse ">
 
-            <label for="<?= FN_ADRESSE ?>" >*Adresse :</label>
+            <label for="<?= FN_ADRESSE ?>" id="adr">*Adresse :</label>
             <input type="text" name="<?= FN_ADRESSE ?>" id="<?= FN_ADRESSE?>" value=""/>
 
         </div>
@@ -221,7 +221,7 @@ $vld = array(
 
         <!-- Champ province  -->
         <div class="province">
-            <div class="container">
+            <div class="contain">
                 <label for="<?= FN_PROVINCE ?>">*Province :</label>
                 <select name="<?= FN_PROVINCE ?>" id="<?= FN_PROVINCE ?>">
                     <option value="Alberta">Alberta</option>

@@ -6,7 +6,6 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section { display: block; }
 
 body{
-
 	background-color: lavender;
 
 }
@@ -17,7 +16,6 @@ body{
 
 header{
 	position: relative;
-
 }
 
 .menu-all{
@@ -37,13 +35,15 @@ h2{
 	position: relative;
 	left:0px;
 }
+
 p{
 	color:black;
-
 }
+
 #logo{
 	height:100px;
 }
+
 .menu-btn span{
 	display: block;
 	background-color: #cbcbcb;
@@ -55,14 +55,13 @@ p{
 
 #panier{
 	position:relative;
-	left:1680px;
-	bottom:120px;
+	left:1750px;
+	bottom:40px;
 	height:100px;
 }
 
 nav:first-of-type ul{
 	display: flex;
-
 }
 
 ul li{
@@ -73,8 +72,6 @@ ul li{
 #navigation{
 	display:flex;
 	justify-content: space-around;
-
-
 }
 
 .nav-ul-1 {
@@ -85,7 +82,6 @@ ul li{
 }
 
 #langues{
-
 	position: relative;
 	bottom:37px;
 	right:70px;
@@ -107,7 +103,7 @@ ul li{
 	height:40px;
 	margin:0 20px 0 0;
 	position:relative;
-	bottom:174px;
+	bottom:125px;
  	left:1665px;
 }
 
@@ -130,14 +126,14 @@ header nav .nav-ul-1 li a:hover{
 	display: block;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-weight: bold;
 	font-size: 14px;
-	color:white;
+	color:red;
 	width: 100%;
 	height: 100%;
 	background-color: transparent;
-	border-top: 10px solid red;
+	border-top: 5px solid white;
 }
 
 
@@ -158,6 +154,7 @@ header nav .nav-ul-1 li a:hover{
 	justify-content: space-around;
 	position: relative;
 	bottom:90px;
+	right:30px;
 }
 
 .livres02{
@@ -177,6 +174,16 @@ header nav .nav-ul-1 li a:hover{
 	position: relative;
 	bottom:225px;
 	/*left:500px;*/
+}
+
+#adr{
+	position: relative;
+	font-size: 16px;
+}
+
+.container{
+	position: relative;
+	top:20px;
 }
 
 /**********END  CONTACT**********/
@@ -316,7 +323,6 @@ img{
 	position: relative;
 	bottom: 100px;
 	right:590px;
-
 }
 /****END 18 ANS ET PLUS***/
 
@@ -456,7 +462,7 @@ p {
 #espace{
 	position: relative;
 	bottom: 177px;
-	left:500px;
+	left:725px;
 }
 
 .login{
@@ -469,6 +475,11 @@ p {
 }
 
 input{
+	position: relative;
+	right:0px;
+}
+
+.in{
 	position: relative;
 	left:45px;
 }

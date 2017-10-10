@@ -1,24 +1,24 @@
 
 <?php
-require_once 'defines.php';
-$page_title = 'Detail';
-require_once 'db01/_data_categories.php';
-require_once 'db01/_data_products.php';
+    require_once 'defines.php';
+    $page_title = 'Detail';
+    require_once 'db01/_data_categories.php';
+    require_once 'db01/_data_products.php';
 
-$prod_id = '';
+    $prod_id = '';
 
-if(array_key_exists("prod_id",$_GET) && array_key_exists($_GET["prod_id"],$products) ) {
+    if(array_key_exists("prod_id",$_GET) && array_key_exists($_GET["prod_id"],$products) ) {
 
-    $prod_id = $_GET["prod_id"];
+        $prod_id = $_GET["prod_id"];
 
-}else {
-    header('Location:index.php');
-    exit('VALEUR DES CAT_ID REJETE -> EXIT');
+    }else {
+        header('Location:index.php');
+        exit('VALEUR DES CAT_ID REJETE -> EXIT');
 
-}
-$prod = $products[$prod_id];
+    }
+    $prod = $products[$prod_id];
 
-require_once 'views/header.php';
+    require_once 'views/header.php';
 ?>
 
     <div id="content">
