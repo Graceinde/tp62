@@ -1,7 +1,4 @@
-
 <?php
-
-
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -9,6 +6,10 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/main.css" />
     <link rel="icon" href="images/favicon-teetime.png"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script/cart.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <div id="wrapper">
@@ -46,13 +47,12 @@
                     </form>
 
                     <!-- PANIER -->
+    <div>
+        <a href="../panier/panier.php"> <img src="images/panier_img.png" alt="" id="panier"></a>
+    </div>
 
-                    <div>
-                        <a href="panier.php">
-                            <img src="images/panier_img.png" alt="Photo du panier" id="panier">
-                        </a>
-                    </div>
-        </div>
+
+
 </form>
         <img src="images/livres.jpg" alt="Les livres" id="banner">
     </header>

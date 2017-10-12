@@ -3,6 +3,7 @@
 
 require_once ('views/header.php');
 
+
 ?>
 <div class="livres01">
     <img src="images/index/labyrinthe_livres.jpg" alt="Un labyrinthe de livres">
