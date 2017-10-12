@@ -126,7 +126,7 @@ if ($en_reception) {
 
     // Validation des 10 champs
     if (($nom_est_valide) && ($prenom_est_valide) && ($courriel_est_valide) && ($telephone_est_valide) && ($adresse_est_valide) && ($ville_est_valide) && ($province_est_valide) && ($categorie_livre_est_valide) && ($commentaire_est_valide)) {
-        header('Location: index.php');
+        header('Location: panier.php');
     }
 }
 

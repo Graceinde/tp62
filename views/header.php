@@ -48,7 +48,7 @@
                     <!-- PANIER -->
 
                     <div>
-                        <a href="">
+                        <a href="panier.php">
                             <img src="images/panier_img.png" alt="Photo du panier" id="panier">
                         </a>
                     </div>

@@ -12,7 +12,7 @@
         $prod_id = $_GET["prod_id"];
 
     }else {
-        header('Location:index.php');
+        header('Location:panier.php');
         exit('VALEUR DES CAT_ID REJETE -> EXIT');
 
     }

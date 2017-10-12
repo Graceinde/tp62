@@ -12,7 +12,7 @@ if(array_key_exists('cat_id',$_GET) && array_key_exists($_GET['cat_id'],$categor
 
     $cat_id =$_GET['cat_id'];
 }else {
-    header('Location:index.php');
+    header('Location:panier.php');
     exit('VALEUR DES CAT_ID REJETE -> EXIT');
 }
 require_once 'views/header.php';
