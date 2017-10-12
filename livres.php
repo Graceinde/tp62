@@ -2,12 +2,12 @@
 <?php
 
 require_once 'defines.php';
-require_once 'db01/_data_categories.php';
-require_once 'db01/_data_products.php';
+require_once 'data/_data_categories.php';
+require_once 'data/_data_products.php';
 $page_title = 'Livres';
 require_once 'livres.php';
 $cat_id = '';
-var_dump($_GET);
+//var_dump($_GET);
 if(array_key_exists('cat_id',$_GET) && array_key_exists($_GET['cat_id'],$categories)){
 
     $cat_id =$_GET['cat_id'];

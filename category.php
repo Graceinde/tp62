@@ -1,8 +1,8 @@
 
 <?php
 require_once 'defines.php';
-require_once 'db01/_data_categories.php';
-require_once 'db01/_data_products.php';
+require_once 'data/_data_categories.php';
+require_once 'data/_data_products.php';
 $page_title = 'Category';
 require_once 'views/header.php';
 ?>

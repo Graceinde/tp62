@@ -32,7 +32,7 @@ $products = array(
         PROD_IMG  => 'clifford_joue_au_baseball.jpg',
         BOOK_PRIX => '5$',
         ID => 'clifford',
-        PROD_DESC => '<p> Clifford rêve de jouer au baseball avec les enfants. Si seulement il existait des bâtons pour les joueurs de sa taille! Clifford essaie d\'autres objets pour remplacer le bâton : un arbre, un lampadaire, etc. Malheureusement, rien ne convient. Les enfants réussiront-ils à trouver une solution pour inclure Clifford dans leur jeu?L\'histoire d\'un immense chien rouge qui joue avec des enfants au baseball</p>'
+        PROD_DESC => '<p> Clifford rêve de jouer au baseball avec les enfants. Si seulement il existait des bâtons pour les joueurs de sa taille! Clifford essaie d\'autres objets pour remplacer le bâton : un arbre, un lampadaire, etc. Malheureusement, rien ne convient. Les enfants réussiront-ils à trouver une solution pour inclure Clifford dans leur jeu? L\'histoire d\'un immense chien rouge qui joue avec des enfants au baseball</p>'
 
 	),
 
